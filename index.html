@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Wallet Scanner</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <div id="app">
+
+        <h1>Wallet Scanner</h1>
+
+        <div class="stats">
+
+            <p><strong>Seed Phrases Scanned:</strong> <span id="counter">0</span></p>
+
+        </div>
+
+        <button id="start-scan">Start Scanning</button>
+
+        <div id="result">
+
+            <h2>Current Seed Phrase:</h2>
+
+            <p id="seed" class="scrolling-text"></p>
+
+            <h2>Ethereum Address:</h2>
+
+            <p id="address"></p>
+
+            <h2>Balance:</h2>
+
+            <p id="balance"></p>
+
+            <h2>Last Transaction:</h2>
+
+            <p id="transaction"></p>
+
+        </div>
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
